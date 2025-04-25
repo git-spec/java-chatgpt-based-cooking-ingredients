@@ -1,5 +1,8 @@
 package com.example.chatgptbasedcookingingredients.model;
 
-public record OpenAIResponse(List<OpenAIChoise> choises) {
+import java.util.List;
+
+
+public record OpenAIResponse(List<OpenAIChoice> choises) {
 
 }
